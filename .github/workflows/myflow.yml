@@ -12,6 +12,7 @@ jobs:
           ls ${{github.workspace}}
 
   Second-job: 
+    name: The Second Job ruuning on another runner
     runs-on: ubuntu-lastest
     needs: Example-Acions-Job
     steps:
