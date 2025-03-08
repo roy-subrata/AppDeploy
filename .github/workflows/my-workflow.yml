@@ -1,5 +1,5 @@
 name: Github Action Demo
-on:  pus
+on:  push
 jobs:
   Example-Acions-Job:
     name: Exployring Github Actions  
